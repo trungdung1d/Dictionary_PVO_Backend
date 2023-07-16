@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Infrastructure\\HUST.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\HUST.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\HUST.Core.csproj",
+        "projectName": "HUST.Core",
+        "projectPath": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\HUST.Core.csproj",
+        "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.14, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Infrastructure\\HUST.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Infrastructure\\HUST.Infrastructure.csproj",
+        "projectName": "HUST.Infrastructure",
+        "projectPath": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Infrastructure\\HUST.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\HUST.Core.csproj": {
+                "projectPath": "C:\\Users\\AD\\Desktop\\PVO_Dictionary_backend\\HUST.Core\\HUST.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
